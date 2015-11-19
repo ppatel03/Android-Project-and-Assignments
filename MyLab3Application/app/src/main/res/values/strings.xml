@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Patel_MyLab3Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="full_name">Prashant Mahesh Patel</string>
+    <string name="course_name">CIS 600</string>
+    <string name="about_me">About Me</string>
+    <string name="movieListView">Movie List Name</string>
+    <string name="clearAll">Clear All</string>
+    <string name="selectAll">Select All</string>
+    <string name="delete">Delete</string>
+    <string name="movieGridView">Movie Grid View</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Patel_MyLab2Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_me">About Me</string>
+    <string name="full_name">Prashant Mahesh Patel</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_3">Button 3</string>
+    <string name="button_40">Button 40</string>
+    <string name="button_100000">Button 100000</string>
+    <string name="submit">Submit</string>
+    <string name="linear_layout_fragment">Linear Layout</string>
+    <string name="user_text">User</string>
+    <string name="button_4">Button 4</string>
+    <string name="button_5">Button 5</string>
+    <string name="relative_layout_fragment">Relative Layout</string>
+    <string name="grid_layout_fragment">Grid Layout</string>
+    <string name="seekbar_fragment">Seek Bar</string>
+    <string name="movie_data_fragment">Movie Data</string>
+    <string name="load_next_movie">Load Next Movie</string>
+    <string name="load_prev_movie">Load Prev Movie</string>
+    <string name="course_name">CIS 600</string>
+
+</resources>

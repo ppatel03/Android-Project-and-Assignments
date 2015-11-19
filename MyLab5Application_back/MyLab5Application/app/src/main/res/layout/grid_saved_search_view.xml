@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/savedSearchBackgroundImage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:background="@color/ocean_blue"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Syracuse Lib To College Place dd/mm/yyyy"
+            android:id="@+id/savedSearchGridTag"
+            android:textColor="@color/white"
+            android:layout_alignLeft="@+id/savedSearchBackgroundImage"
+            android:layout_alignTop="@+id/savedSearchBackgroundImage"
+            android:layout_alignRight="@+id/savedSearchBackgroundImage"
+            android:layout_alignBottom="@+id/savedSearchBackgroundImage"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

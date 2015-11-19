@@ -1,0 +1,66 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".Activity_RemoteControl">
+
+    <item android:id="@+id/action_drawable0"
+        android:title="0. Fantasy Frame: 9 Patch"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_drawable1"
+    android:title="1. Fantasy Frame: Not 9 Patch"
+    android:orderInCategory="100"
+    app:showAsAction="never" />
+
+    <item android:id="@+id/action_drawable2"
+        android:title="2. Gold Frame: 9 Patch"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_drawable3"
+        android:title="3. Gold Frame: Not 9 Patch"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_drawable4"
+        android:title="4. Layer List Drawable: XML"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_drawable5"
+        android:title="5. Layer List Drawable: Dynamic"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_drawable6"
+        android:title="6. Lever List Drawable"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_drawable7"
+        android:title="7. Transition Drawable"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_drawable8"
+        android:title="8. Clip Drawable"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_drawable9"
+        android:title="9. Shape Drawable"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_drawable10"
+        android:title="10. Animation Drawable"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_drawable11"
+        android:title="11. Create Bitmap"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
+

@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.mylab6application.FragmentDetailViewActivity"
+    tools:ignore="MergeRootFrame" >
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_detail_activity_frame"></FrameLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:elevation="5dp"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="#ccc"
+        >
+       <!-- <ImageView
+            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/recycle_icon_toolbar"
+            android:title="@string/recycle_bin"
+            android:src="@drawable/garbage"/>
+
+        <ImageView
+            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/action_search_toolbar"
+            android:title="Search"
+            android:src="@drawable/searchicon"
+            />-->
+
+
+
+
+    </android.support.v7.widget.Toolbar>
+    </RelativeLayout>

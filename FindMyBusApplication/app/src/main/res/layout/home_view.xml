@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/mediumturquoisebackground">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/realbus1"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/earth_blue"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/searchBusImage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Bus"
+            android:textColor="@color/white"
+            android:layout_alignLeft="@+id/searchBusImage"
+            android:layout_alignTop="@+id/searchBusImage"
+            android:layout_alignRight="@+id/searchBusImage"
+            android:layout_alignBottom="@+id/searchBusImage"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/cobalt_blue"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/nearestBusStopImage"
+            android:layout_below="@+id/searchBusImage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Nearest Bus Stop"
+            android:textColor="@color/white"
+            android:layout_alignLeft="@+id/nearestBusStopImage"
+            android:layout_alignTop="@+id/nearestBusStopImage"
+            android:layout_alignRight="@+id/nearestBusStopImage"
+            android:layout_alignBottom="@+id/nearestBusStopImage"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blue_grey"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/savedSearchImage"
+            android:layout_below="@id/nearestBusStopImage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saved Search"
+            android:textColor="@color/white"
+            android:layout_alignLeft="@+id/savedSearchImage"
+            android:layout_alignTop="@+id/savedSearchImage"
+            android:layout_alignRight="@+id/savedSearchImage"
+            android:layout_alignBottom="@+id/savedSearchImage"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/ocean_blue"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/shareLocationImage"
+            android:layout_below="@+id/savedSearchImage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share your Running Bus"
+            android:textColor="@color/white"
+            android:layout_alignLeft="@+id/shareLocationImage"
+            android:layout_alignTop="@+id/shareLocationImage"
+            android:layout_alignRight="@+id/shareLocationImage"
+            android:layout_alignBottom="@+id/shareLocationImage"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+        </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

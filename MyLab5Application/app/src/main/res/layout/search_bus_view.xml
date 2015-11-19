@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/ocean_blue"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/savedSearchPasteImage"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use Your Saved Results"
+            android:textColor="@color/white"
+            android:layout_alignLeft="@+id/savedSearchPasteImage"
+            android:layout_alignTop="@+id/savedSearchPasteImage"
+            android:layout_alignRight="@+id/savedSearchPasteImage"
+            android:layout_alignBottom="@+id/savedSearchPasteImage"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From : "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/fromTextView"
+            />
+
+        <AutoCompleteTextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_toRightOf="@id/fromTextView"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/fromEditTextView"
+            android:editable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To : "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/toTextView"
+            android:layout_below="@+id/fromTextView"
+            />
+
+        <AutoCompleteTextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_below="@+id/fromEditTextView"
+            android:layout_alignLeft="@+id/fromEditTextView"
+            android:id="@+id/toEditTextView"
+            android:editable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/dateTextView"
+            android:layout_below="@+id/toTextView"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_below="@+id/toEditTextView"
+            android:layout_alignLeft="@+id/toEditTextView"
+            android:id="@+id/dateEditTextView"
+            android:editable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/timeTextView"
+            android:layout_below="@+id/dateTextView"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_below="@+id/dateEditTextView"
+            android:layout_alignLeft="@+id/dateEditTextView"
+            android:id="@+id/timeEditTextView"
+            android:editable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Additional Criteria :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/additionalCriteriaTextView"
+            android:layout_below="@+id/timeEditTextView"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort"
+            android:id="@+id/sortCheckBox"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@+id/additionalCriteriaTextView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:checked="true"
+            />
+
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/sortCheckBox"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/criteriaRadioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cost"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/costRadioButton"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/timeRadioButton"
+            android:layout_toRightOf="@+id/costRadioButton"
+            android:layout_marginLeft="30dp"
+            android:checked="true"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ratings"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/ratingsRadioButton"
+            android:layout_toRightOf="@+id/timeRadioButton"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/ocean_blue"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/submitBusSearchImage"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search For Buses"
+            android:textColor="@color/white"
+            android:layout_alignLeft="@+id/submitBusSearchImage"
+            android:layout_alignTop="@+id/submitBusSearchImage"
+            android:layout_alignRight="@+id/submitBusSearchImage"
+            android:layout_alignBottom="@+id/submitBusSearchImage"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

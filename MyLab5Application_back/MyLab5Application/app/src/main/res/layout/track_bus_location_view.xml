@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/trackBusNameTextView"
+
+        />
+
+    <AutoCompleteTextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_toRightOf="@id/trackBusNameTextView"
+        android:id="@+id/trackBusNameEditTextView"
+        android:editable="true"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/ocean_blue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/trackLocationShareImageView"
+        android:layout_below="@id/trackBusNameTextView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Your Bus Location"
+        android:textColor="@color/white"
+        android:layout_alignLeft="@+id/trackLocationShareImageView"
+        android:layout_alignTop="@+id/trackLocationShareImageView"
+        android:layout_alignRight="@+id/trackLocationShareImageView"
+        android:layout_alignBottom="@+id/trackLocationShareImageView"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trackProgressBar"
+        android:layout_below="@+id/trackLocationShareImageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/trackProgressBarTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/trackProgressBar"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/track_google_map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_below="@+id/trackProgressBarTextView"
+        android:layout_margin="10dp"
+        />
+
+
+
+
+</RelativeLayout>

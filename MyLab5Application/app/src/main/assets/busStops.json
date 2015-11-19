@@ -1,0 +1,160 @@
+[
+{
+	"locationName":"James and Lodi",
+	"buses":[	{ "busName" : "James Street",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [7.05, 8.25, 9.45, 12.30, 15.25, 17.00]
+					 }			
+				]
+},
+{
+	"locationName":"East Genesse and Irving",
+	"buses":[		{ "busName" : "James Street",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [7.10, 8.30, 9.50, 12.35, 15.30, 17.05]
+					 },
+					{ "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [9.34, 10.14, 11.34, 14.04, 16.29, 17.34]
+					 }					 
+				]
+},
+{
+	"locationName":"East Genesse and University Avenue",
+	"buses":[		{ "busName" : "James Street",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [7.11, 8.31, 9.51, 12.36, 15.31, 17.06]
+					 },
+					{ "busName" : "East Campus",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [17.38, 18.58, 20.18, 21.38, 22.58, 23.38]
+					 }					 
+				]
+},
+{
+	"locationName":"East Genesse and Westcott",
+	"buses":[		{ "busName" : "James Street",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [7.15, 8.35, 9.55, 12.40, 15.35, 17.10]
+					 },
+					 { "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [9.17, 9.57, 11.17, 13.47, 16.12, 17.17]
+					 },
+					{ "busName" : "East Campus",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [17.35, 18.55, 20.15, 21.35, 22.55, 23.35]
+					 }					 
+				]
+},
+{
+	"locationName":"Westcott and Euclid",
+	"buses":[		{ "busName" : "James Street",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [7.20, 8.40, 10.00, 12.45, 15.40, 17.15]
+					 },
+					 { "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [9.21, 10.01, 11.21, 13.51, 16.16, 17.21]
+					 },
+					{ "busName" : "East Campus",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [17.33, 18.53, 20.13, 21.33, 22.53, 23.33]
+					 }					 
+				]
+},
+{
+	"locationName":"College Place",
+	"buses":[		{ "busName" : "James Street",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [7.25, 8.45, 10.05, 12.50, 15.45, 17.20]
+					 },
+					 { "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [9.25, 10.05, 11.25, 13.55, 16.20, 17.25]
+					 },
+					{ "busName" : "East Campus",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [17.20, 18.40, 20.00, 21.20, 22.40, 23.20]
+					 }					 
+				]
+},
+{
+	"locationName":"Days and Flint Halls",
+	"buses":[		{ "busName" : "East Campus",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [17.26, 18.46, 20.06, 21.26, 22.46, 23.26]
+					 }					 
+				]
+},
+{
+	"locationName":"Marshall Street",
+	"buses":[		{ "busName" : "East Campus",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [17.39, 18.59, 20.19, 21.39, 22.59, 23.39]
+					 }					 
+				]
+},
+{
+	"locationName":"Henry Street Shelter",
+	"buses":[		{ "busName" : "East Campus",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [17.48, 19.08, 20.28, 21.48, 23.08, 23.48]
+					 }					 
+				]
+},
+{
+	"locationName":"Bird Library",
+	"buses":[		{ "busName" : "East Campus",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [17.50, 19.10, 20.30, 21.50, 23.10, 23.50]
+					 },
+					{ "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [9.27, 10.08, 11.27, 13.57, 16.22, 17.27]
+					 }					 
+				]
+},
+{
+	"locationName":"Comstock and Adams",
+	"buses":[		{ "busName" : "East Campus",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [17.51, 19.11, 20.31, 21.51, 23.11, 23.51]
+					 }					 
+				]
+},
+{
+	"locationName":"ShoppingTown Mall",
+	"buses":[		{ "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [9.02, 9.39, 10.59, 13.29, 15.54, 16.59]
+					 }					 
+				]
+},
+{
+	"locationName":"East Genesse and Jamesville Road",
+	"buses":[		{ "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [9.07, 9.44, 11.04, 13.34, 15.59, 17.04]
+					 }					 
+				]
+},
+{
+	"locationName":"Washington and State Street",
+	"buses":[		{ "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [9.39, 10.19, 11.39, 14.09, 16.34, 17.39]
+					 }					 
+				]
+},
+{
+	"locationName":"Centro Transit Hub",
+	"buses":[		{ "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [9.45, 10.25, 11.45, 14.15, 16.40, 17.45]
+					 }					 
+				]
+}
+]
+
+

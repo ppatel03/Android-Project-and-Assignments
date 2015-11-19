@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+keytool -list -v -keystore "C:\Users\prashant\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+Keystore :C:\Users\prashant\.android\debug.keystore
+
+SHA1 :F4:38:DE:E1:C4:2D:7D:95:22:1B:77:D2:A0:8A:D0:B1:E5:DB:DD:D1;com.findmybusapplication
+
+API key	:AIzaSyCMRtfki79iCVA4EJfmBUxG7ijP-ZfU5JY
+-->
+<resources>
+
+    <string name="app_name">FindMyBusApplication</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="api_key">AIzaSyCMRtfki79iCVA4EJfmBUxG7ijP-ZfU5JY</string>
+    <string name="title_activity_view_pager">ViewPagerActivity</string>
+
+</resources>

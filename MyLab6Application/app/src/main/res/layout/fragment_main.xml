@@ -1,0 +1,87 @@
+
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blackbackground2"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/aboutMeFragmentButton"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/bluebutton"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/about_me"
+            android:layout_alignLeft="@+id/aboutMeFragmentButton"
+            android:layout_alignTop="@+id/aboutMeFragmentButton"
+            android:layout_alignRight="@+id/aboutMeFragmentButton"
+            android:layout_alignBottom="@+id/aboutMeFragmentButton"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/recyclerViewActivityButton"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/aboutMeFragmentButton"
+            android:src="@drawable/bluebutton"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/recycler_view"
+            android:layout_alignLeft="@+id/recyclerViewActivityButton"
+            android:layout_alignTop="@+id/recyclerViewActivityButton"
+            android:layout_alignRight="@+id/recyclerViewActivityButton"
+            android:layout_alignBottom="@+id/recyclerViewActivityButton"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/viewPagerActivityButton"
+            android:layout_below="@+id/recyclerViewActivityButton"
+            android:src="@drawable/bluebutton"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/view_pager_activity"
+            android:layout_alignLeft="@+id/viewPagerActivityButton"
+            android:layout_alignTop="@+id/viewPagerActivityButton"
+            android:layout_alignRight="@+id/viewPagerActivityButton"
+            android:layout_alignBottom="@+id/viewPagerActivityButton"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

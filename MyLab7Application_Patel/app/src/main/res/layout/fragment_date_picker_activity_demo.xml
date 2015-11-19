@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.mylab7application_patel.DatePickerActivityDemo$PlaceholderFragment">
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePickerActivity"></DatePicker>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Thought for the day!!!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/thoughtTextActivity"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/datePickerActivity"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/nameTextActivity"
+        android:layout_below="@+id/thoughtTextActivity"
+        android:layout_margin="5dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/nameTextActivity"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/cancelActivity"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/okActivity"
+            android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

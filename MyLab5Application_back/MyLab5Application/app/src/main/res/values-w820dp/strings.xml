@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="full_name">Prashant Mahesh Patel</string>
+    <string name="course_name">CIS 600</string>
+    <string name="about_me">About Me</string>
+    <string name="view_pager_activity">View pager Activity</string>
+    <string name="master_data_flow_activity">Master Data Flow Activity</string>
+    <string name="find_my_bus_application">Find My Bus App</string>
+    <string name="api_key">AIzaSyCMRtfki79iCVA4EJfmBUxG7ijP-ZfU5JY</string>
+    <string name="ok">OK</string>
+
+</resources>

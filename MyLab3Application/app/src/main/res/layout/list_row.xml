@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movieCheckBox"
+            android:layout_marginTop="5dp"
+            android:focusable="false"
+            />
+
+        <ImageView
+            android:id="@+id/movieImage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rings"
+            android:layout_below="@+id/movieCheckBox"
+            />
+
+        <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_margin= "5dp"
+        android:layout_toRightOf="@+id/movieCheckBox"
+        android:text="This is Title"
+        android:textColor="@color/abc_secondary_text_material_dark"
+        />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movieRatings"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:rating="2.5"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/movieTitle"
+
+            style="?android:attr/ratingBarStyleSmall"
+            />
+
+        <TextView
+            android:id="@+id/movieDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/movieImage"
+            android:layout_below="@+id/movieTitle"
+            android:text="This is my Description"
+            android:textColor="@color/switch_thumb_normal_material_light"
+
+            />
+
+
+
+        </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/blackbackground1"
+    tools:context="com.mylab7application_patel.MainActivity$TitanicFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/switch_thumb_normal_material_light"
+        android:text="Titanic"
+        android:id="@+id/movieTitle"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="A seventeen-year-old aristocrat, expecting to be married to a rich claimant by her mother, falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+        android:id="@+id/movieDescription"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/switch_thumb_normal_material_light"
+
+        />
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/movieImage"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/titanic"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1997"
+        android:layout_gravity="center"
+        android:id="@+id/movieYear"
+        android:layout_margin="3dp"
+        android:textColor="@color/switch_thumb_normal_material_light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="James Cameron"
+        android:layout_gravity="center"
+        android:id="@+id/movieDirector"
+        android:layout_margin="3dp"
+        android:textColor="@color/switch_thumb_normal_material_light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Leonardo DiCaprio, Kate Winslet, Billy Zane"
+        android:layout_gravity="center"
+        android:id="@+id/movieStars"
+        android:layout_margin="3dp"
+        android:textColor="@color/switch_thumb_normal_material_light"
+        />
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieRatings"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:rating="4.5"
+        style="?android:attr/ratingBarStyleIndicator"
+        />
+
+
+
+</LinearLayout>

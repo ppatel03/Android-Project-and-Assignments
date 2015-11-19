@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrashantPatel_Lab1</string>
+    <string name="action_settings">Settings</string>
+    <string name="developer_name">Prashant Patel</string>
+    <string name="greetings">Hello Universe</string>
+    <string name="click_me">Click Me</string>
+
+
+</resources>

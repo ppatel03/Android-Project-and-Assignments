@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="full_name">Prashant Patel</string>
+    <string name="recycler_view">Recycler View</string>
+    <string name="clearAll">Clear All</string>
+    <string name="selectAll">Select All</string>
+    <string name="delete">Delete</string>
+</resources>

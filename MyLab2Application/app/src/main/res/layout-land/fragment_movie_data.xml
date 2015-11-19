@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgwooden">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Large Text"
+        android:id="@+id/movieTitle"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Medium Text"
+        android:id="@+id/movieDescription"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="textStart" />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/movieImage"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Medium Text"
+        android:layout_gravity="center"
+        android:id="@+id/movieYear"
+        android:layout_margin="1dp"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:layout_gravity="center"
+        android:id="@+id/movieStars"
+        android:layout_margin="1dp"
+        android:textAlignment="textStart" />
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieRatings"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:rating="2.0"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:id="@+id/movieNextButtonImage"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/bluebutton"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/load_next_movie"
+            android:layout_alignLeft="@+id/movieNextButtonImage"
+            android:layout_alignTop="@+id/movieNextButtonImage"
+            android:layout_alignRight="@+id/movieNextButtonImage"
+            android:layout_alignBottom="@+id/movieNextButtonImage"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:id="@+id/moviePrevButtonImage"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bluebutton"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/load_prev_movie"
+            android:layout_alignLeft="@+id/moviePrevButtonImage"
+            android:layout_alignTop="@+id/moviePrevButtonImage"
+            android:layout_alignRight="@+id/moviePrevButtonImage"
+            android:layout_alignBottom="@+id/moviePrevButtonImage"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

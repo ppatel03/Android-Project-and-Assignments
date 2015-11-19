@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/blackbackground2"
+    >
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/clearAll"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/bluebutton"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/clearAll"
+        android:layout_alignLeft="@+id/clearAll"
+        android:layout_alignTop="@+id/clearAll"
+        android:layout_alignRight="@+id/clearAll"
+        android:layout_alignBottom="@+id/clearAll"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/selectAll"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bluebutton"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/selectAll"
+        android:layout_alignLeft="@+id/selectAll"
+        android:layout_alignTop="@+id/selectAll"
+        android:layout_alignRight="@+id/selectAll"
+        android:layout_alignBottom="@+id/selectAll"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/delete"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/bluebutton"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/delete"
+        android:layout_alignLeft="@+id/delete"
+        android:layout_alignTop="@+id/delete"
+        android:layout_alignRight="@+id/delete"
+        android:layout_alignBottom="@+id/delete"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+
+
+    <ListView android:id="@+id/movieListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clearAll"
+        ></ListView>
+
+</RelativeLayout>

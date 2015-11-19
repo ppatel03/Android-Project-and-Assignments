@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="dark_slate_blue">#2B3856</color>
+    <color name="midnight_blue">#151B54</color>
+    <color name="navy_blue">#000080</color>
+    <color name="cobalt_blue">#0020C2</color>
+    <color name="slate_grey">#657383</color>
+    <color name="blue_grey">#1569C7</color>
+    <color name="earth_blue">#0000A0</color>
+    <color name="ocean_blue">#2B65EC</color>
+
+
+</resources>

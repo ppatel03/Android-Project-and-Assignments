@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyLab5Application_Patel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="full_name">Prashant Mahesh Patel</string>
+    <string name="course_name">CIS 600</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_view_pager">ViewPagerActivity</string>
+    <string name="title_activity_master_data_flow">MasterDataFlowActivity</string>
+    <string name="about_me">About Me</string>
+    <string name="view_pager_activity">View pager Activity</string>
+    <string name="master_data_flow_activity">Master Data Flow Activity</string>
+    <string name="find_my_bus_application">Find My Bus App</string>
+    <string name="api_key">AIzaSyCh0kfaSirf7lGyuwCps8EvNvzPQLEb0iA</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_recycler_view_activity_for_bus_search_results">Find My Bus App
+    </string>
+
+</resources>

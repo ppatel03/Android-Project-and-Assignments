@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_name_text_size">45px</dimen>
+    <dimen name="activity_greetings_margin">40dp</dimen>
+    <dimen name="activity_image_margin">10dp</dimen>
+    <dimen name="image_height">100dp</dimen>
+
+</resources>

@@ -1,0 +1,42 @@
+[
+{
+		"busKey" : "James Street-Ultimate Transit",
+		"busDetails" : [{
+						"busName" : "James Street",
+						"operatorName" : "Ultimate Transit",
+						"busDescription" : "Free for SU students. This is the Bus which runs from Syracuse University College Pl to James Street via East Genesse, Westcott and Euclid.",
+						"busRatings" : 4.9,
+						"busImage" : "jamesstreet",
+						"busStops" : ["James and Lodi","East Genesse and Irving","East Genesse and University Avenue","East Genesse and Westcott","Westcott and Euclid","College Place"],
+						"costPerStop" : 0.5,
+						"doNotOperate" : "Sunday,Saturday"
+						
+					}]
+	},
+{
+		"busKey" : "SU Westcott-Centro",
+		"busDetails" : [{
+						"busName" : "SU Westcott",
+						"operatorName" : "Centro",
+						"busDescription" : "S.U. Students and staff may ride free within the Free Fare Zone, when they present a valid S.U. I.D. at the time they board. This is the Bus which runs from Shopping Town to Centro Transit Hub.",
+						"busRatings" : 4.8,
+						"busImage" : "suwestcott",
+						"busStops" : ["ShoppingTown Mall","East Genesse and Jamesville Road","East Genesse and Westcott","Westcott and Euclid","College Place","Bird Library","East Genesse and Irving","Washington and State Street","Centro Transit Hub"],
+						"costPerStop" : 0.3,	
+						"doNotOperate" : "Sunday"						
+					}]
+},
+{
+		"busKey" : "East Campus-Ultimate Transit",
+		"busDetails" : [{
+						"busName" : "East Campus",
+						"operatorName" : "Ultimate Transit",
+						"busDescription" : "Free for SU students. This is the Bus does a round trip starting from College Place and travels between Days and Flint Hall, Euclid, Westcott, East Genesse, Marshall Street and comes back to the College Place.",
+						"busRatings" : 2.8,
+						"busImage" : "eastcampus",
+						"busStops" : ["College Place","Days and Flint Halls","Westcott and Euclid","East Genesse and Westcott","East Genesse and University Avenue","Marshall Street","Henry Street Shelter","Bird Library","Comstock and Adams"],
+						"costPerStop" : 0.6,	
+						"doNotOperate" : "Sunday"						
+					}]
+}
+]

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:background="@drawable/bgwooden">
+
+    <ImageView
+        android:src="@drawable/fb"  android:layout_width="105dp"
+        android:layout_height="95dp" android:layout_margin="5dp"  android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/firefox"  android:layout_width="105dp"
+        android:layout_height="95dp" android:layout_margin="5dp"  android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/google"  android:layout_width="105dp"
+        android:layout_height="95dp" android:layout_margin="5dp"  android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/twitter"  android:layout_width="105dp"
+        android:layout_height="190dp" android:layout_margin="5dp"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/youtube"  android:layout_width="105dp"
+        android:layout_height="95dp" android:layout_margin="5dp"  android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/chrome"  android:layout_width="105dp"
+        android:layout_height="95dp" android:layout_margin="5dp"  android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/tumble"  android:layout_width="220dp"
+        android:layout_height="95dp" android:layout_margin="5dp"
+        android:layout_columnSpan="2"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/twitter_t"  android:layout_width="105dp"
+        android:layout_height="95dp" android:layout_margin="5dp"  android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/linkedin"  android:layout_width="105dp"
+        android:layout_height="95dp" android:layout_margin="5dp"  android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/blog"  android:layout_width="105dp"
+        android:layout_height="95dp" android:layout_margin="5dp"  android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/dropbox"  android:layout_width="105dp"
+        android:layout_height="95dp" android:layout_margin="5dp"  android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/rss"  android:layout_width="105dp"
+        android:layout_height="95dp" android:layout_margin="5dp"  android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:src="@drawable/ie"  android:layout_width="105dp"
+        android:layout_height="95dp" android:layout_margin="5dp"  android:scaleType="fitXY"
+        />
+
+
+
+
+</GridLayout>

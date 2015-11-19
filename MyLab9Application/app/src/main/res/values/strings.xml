@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyLab9Application_Patel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_me">About Me</string>
+    <string name="recycler_view_activity">Recycler View Activity</string>
+    <string name="full_name">Prashant Patel</string>
+    <string name="course_name">CIS 600</string>
+    <string name="title_activity_foldable_layout">FoldableLayout</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

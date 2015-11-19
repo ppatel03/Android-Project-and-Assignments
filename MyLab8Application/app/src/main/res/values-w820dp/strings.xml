@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_me">About Me</string>
+    <string name="recycler_view_activity">Recycler View Activity</string>
+    <string name="full_name">Prashant Patel</string>
+    <string name="course_name">CIS 600</string>
+</resources>

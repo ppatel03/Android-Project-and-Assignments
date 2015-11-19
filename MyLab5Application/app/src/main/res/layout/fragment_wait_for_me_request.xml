@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.findmybusapplication.activities.WaitForMeRequestActivity$PlaceholderFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mins : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/waitTimeView"
+        android:layout_alignBottom="@+id/waitTimeEditTextView"
+        android:layout_toStartOf="@+id/waitTimeEditTextView" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@id/usernameTextView"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/waitTimeEditTextView"
+        android:editable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/usernameTextView"
+        android:layout_above="@+id/busNameEditTextView"
+        android:layout_alignEnd="@+id/longitudeLabeltextView" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@id/usernameTextView"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/usernameEditTextView"
+        android:editable="true"
+        android:layout_below="@+id/waitTimeEditTextView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/busNameTextView"
+        android:layout_alignBottom="@+id/busNameEditTextView"
+        android:layout_alignStart="@+id/latitudeLabeltextView" />
+
+    <AutoCompleteTextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_toRightOf="@id/busNameTextView"
+        android:id="@+id/busNameEditTextView"
+        android:layout_alignLeft="@+id/usernameEditTextView"
+        android:editable="true"
+        android:layout_below="@+id/usernameEditTextView"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Latitude : "
+        android:id="@+id/latitudeLabeltextView"
+        android:layout_marginLeft="5dp"
+
+        android:layout_alignTop="@+id/latitude"
+        android:layout_toStartOf="@+id/usernameEditTextView" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="dhfh"
+        android:id="@+id/latitude"
+        android:layout_below="@+id/busNameEditTextView"
+        android:layout_alignLeft="@+id/busNameEditTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Longitude : "
+
+        android:id="@+id/longitudeLabeltextView"
+        android:layout_below="@+id/latitudeLabeltextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="asfasf"
+        android:id="@+id/longitude"
+        android:layout_below="@+id/busNameEditTextView"
+        android:layout_alignLeft="@+id/busNameEditTextView"
+        android:layout_toRightOf="@id/longitudeLabeltextView"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/ocean_blue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/waitForMeSubmitButtonView"
+        android:layout_below="@id/longitudeLabeltextView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request Wait For Me"
+        android:textColor="@color/white"
+        android:layout_alignLeft="@+id/waitForMeSubmitButtonView"
+        android:layout_alignTop="@+id/waitForMeSubmitButtonView"
+        android:layout_alignRight="@+id/waitForMeSubmitButtonView"
+        android:layout_alignBottom="@+id/waitForMeSubmitButtonView"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/waitForMeSubmitButtonView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/progressBarTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/longitude"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/wait_google_map"
+        android:name="com.google.android.gms.maps.MapFragment"
+
+        android:layout_below="@+id/progressBarTextView"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>

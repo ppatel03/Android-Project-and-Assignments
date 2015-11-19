@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_me">About Me</string>
+    <string name="movieListView">Movie List Name</string>
+    <string name="delete">Delete</string>
+    <string name="movieGridView">Movie Grid View</string>
+</resources>

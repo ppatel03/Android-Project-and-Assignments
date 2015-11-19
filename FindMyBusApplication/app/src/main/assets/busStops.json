@@ -1,0 +1,37 @@
+[
+{
+	"locationName":"East Genesse and Westcott",
+	"buses":[	{ "busName" : "James Street",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [12.20, 13.20, 14.10, 15.40,18.30]
+					 },
+					 { "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [12.30, 13.30, 14.20, 16.20]
+					 }				
+				]
+},
+{
+	"locationName":"Euclid",
+	"buses":[		 
+					 { "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [12.40, 13.40, 14.30, 16.30]
+					 }				
+			]
+},
+{
+	"locationName":"College Place",
+	"buses":[		{ "busName" : "James Street",
+					   "operatorName" : "Ultimate Transit",
+					   "timings" : [13.20, 14.20, 15.10, 16.40,19.20]
+					 }, 
+					 { "busName" : "SU Westcott",
+					   "operatorName" : "Centro",
+					   "timings" : [13.40, 14.40, 15.30, 17.30]
+					 }				
+			]
+}
+]
+
+

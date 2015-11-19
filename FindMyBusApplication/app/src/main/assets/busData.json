@@ -1,0 +1,29 @@
+[
+{
+		"busKey" : "James Street-Ultimate Transit",
+		"busDetails" : [{
+						"busName" : "James Street",
+						"operatorName" : "Ultimate Transit",
+						"busDescription" : "Free for SU students. This is the Bus which runs from Syracuse University College Pl to James Street.",
+						"busRatings" : 4.9,
+						"busImage" : "jamesstreet",
+						"busStops" : ["East Genesse and Westcott","Euclid","College Place"],
+						"costPerStop" : 0.5,
+						"doNotOperate" : "Sunday,Saturday"
+						
+					}]
+	},
+{
+		"busKey" : "SU Westcott-Centro",
+		"busDetails" : [{
+						"busName" : "SU Westcott",
+						"operatorName" : "Centro",
+						"busDescription" : "Free for SU students. This is the Bus which runs from Syracuse University College Pl to SU Westcott.",
+						"busRatings" : 4.8,
+						"busImage" : suwestcott,
+						"busStops" : ["East Genesse and Westcott","Euclid","College Place"],
+						"costPerStop" : 0.3,	
+						"doNotOperate" : "Sunday"						
+					}]
+}
+]

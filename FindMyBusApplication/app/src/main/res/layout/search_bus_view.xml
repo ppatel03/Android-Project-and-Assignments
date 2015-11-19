@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From : "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/fromTextView"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_toRightOf="@id/fromTextView"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/fromEditTextView"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To : "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/toTextView"
+            android:layout_below="@+id/fromTextView"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_below="@+id/fromEditTextView"
+            android:layout_alignLeft="@+id/fromEditTextView"
+            android:id="@+id/toEditTextView"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date :"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/dateTextView"
+            android:layout_below="@+id/toTextView"
+            />
+
+        <DatePicker
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/datePicker"
+            android:layout_alignTop="@+id/dateTextView"
+            android:layout_alignStart="@+id/toEditTextView"
+            android:layout_below="@+id/toEditTextView"
+            android:layout_alignLeft="@+id/toEditTextView"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
